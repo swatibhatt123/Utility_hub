@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <div id="left-align">
+        <a href="#"><img src="../images/logo.jpg" width=80  height=80 class="logo" alt="logo"></a>
+        <h1>Utility Hub</h1>
+    </div>
+        <div id="right-align">
+            <ul id="navbar">
+                <li><a class="active" href="../index.html">Home</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container">
+        <h1>Weather Forcast</h1>
+        <form action="#">
+            <input id="city-name" type="text" placeholder="Enter your city name">
+            <input type="submit"  value="Get Weather">
+        </form>
+        <div class="weather-data">
+            <div class="icon">
+                <!-- /<img src="https://openweathermap.org/img/wn/01d.png" alt=""> -->
+            </div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <!-- <div class="temp">35°C</div>
+            <div class="desc">haze</div> -->
+            <!-- structure of website -->
+            <div class="details">
+                <!-- <div>Feels like:35°C</div>
+                <div>Humidity: 45%</div>
+                <div>Wind speed: 5 m/s</div> -->
+            </div>
+        </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
